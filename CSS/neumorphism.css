@@ -1,0 +1,38 @@
+.box {
+    border-radius: 50px;
+    background: #4bb98f;
+    box-shadow: 10px 10px 10px #2e7157,
+        -10px -10px 10px #68ffc7;
+    width: 350px;
+    height: 330px;
+    background: aqua;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    width: 75%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(14, 255, 247);
+    background: #301ce2a8;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+
+
+
+
+.btn:hover {
+    background: #444;
+}
+
+.error {
+    background-color: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
