@@ -5,7 +5,6 @@ const errorMessage = document.querySelector(".msg");
 const items = document.querySelector(".items");
 submitButton.addEventListener("click", (e) => {
     e.preventDefault();
-
     const nameValue = nameInput.value;
     const emailValue = emailInput.value;
 
