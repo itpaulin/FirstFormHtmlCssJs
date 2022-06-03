@@ -7,41 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/neumorphism.css">
+    <script src="./main.js" defer></script>
     <title>Document</title>
 </head>
 
 <body class="body">
-    <div id="my-form">
+    <div id="firstdiv">
         <div class="box">
-            <div id="header">
+            <header>
+                <div id="header">
 
-                <h1 class="center">First Form</h1>
+                    <h1 class="center">First Form</h1>
+                    <div class="msg"></div>
+                </div>
+            </header>
 
-            </div>
-
-
-            <div id="content">
+            <section id="content">
                 <div id="inputs">
-                    <form method="get" class="center">
-                        <div>
-                            <label for="name" class="letters">Name:</label>
-                            <input class="center" type="text" minlength="0" maxlength="30"
-                                placeholder="João Silva Santos">
-                            <br />
-                        </div>
-                        <div>
-                            <label for="email" class="letters">Email:</label>
-                            <input class="center" type="text" placeholder="seunome@email.com">
-                        </div>
-                        <input id="submit-button" class="btn" type="submit" value="Enviar">
+                    <form class="center" id="my-form">
+
+                        <label for="name" class="letters">Name:</label>
+                        <input id="name" class="center" type="text" minlength="0" maxlength="30"
+                            placeholder="João Silva Santos" />
+                        <br />
+
+                        <label for="email" class="letters">Email:</label>
+                        <input id="email" class="center" type="text" placeholder="seunome@email.com" />
+
+                        <input id="submit-button" class="btn" type="submit" value="Enviar" />
                     </form>
                 </div>
                 <br />
-            </div>
+            </section>
         </div>
     </div>
 
-    <script src="./main.js"></script>
+
+    <script type="text/javascript"></script>
 </body>
 
 </html>
