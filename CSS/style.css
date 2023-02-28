@@ -1,1 +1,41 @@
-#header{font-family:Verdana,Geneva,Tahoma,sans-serif}#firstdiv{background-color:rgba(134,223,192,0.623);width:100vw;height:100vh;display:flex;flex-direction:row;justify-content:center;align-items:center;border-radius:10px}#content label{display:block;margin:auto;text-align:start;margin-left:35px}#content input[type="text"]{width:75%;padding:8px;margin-bottom:10px;border-radius:5px;border:1px solid #ccc}.body{margin:0}.center{text-align:center}.letters{font-size:large;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;text-align:left}
+#header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#firstdiv {
+  background: linear-gradient(
+    90deg,
+    rgb(231, 82, 62) 0%,
+    rgb(233, 139, 33) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+#content label {
+  display: block;
+  margin: auto;
+  text-align: start;
+  margin-left: 35px;
+}
+#content input[type="text"] {
+  width: 75%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.body {
+  margin: 0;
+}
+.center {
+  text-align: center;
+}
+.letters {
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
